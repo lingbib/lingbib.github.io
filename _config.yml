@@ -3,7 +3,7 @@ name: "Lingbib"
 description: "Website for the Lingbib project, a project for collaborative management of a comprehensive linguistics bibliography."
 
 # Serving
-baseurl: "http://lingbib.org"
+baseurl: "http://lingbib.org/"
 permalink: pretty
 
 # Handling Reading
