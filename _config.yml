@@ -1,0 +1,26 @@
+# Meta
+name: "Lingbib"
+description: "Website for the Lingbib project, a project for collaborative management of a comprehensive linguistics bibliography."
+
+# Serving
+baseurl: "http://lingbib.org"
+
+# Handling Reading
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Defaults
+defaults:
+ -
+   scope:
+     path: "" # an empty string here means all files in the project
+   values:
+     layout: "default"
+
+# Plugins
+gems:
+ - jekyll-sitemap
+
+# Conversion
+markdown: kramdown
+highlighter: pygments
